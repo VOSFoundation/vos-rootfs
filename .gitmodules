@@ -1,0 +1,6 @@
+[submodule "rootfs/opt/vosbox"]
+	path = rootfs/opt/vosbox
+	url = git@github.com:polonair/vosbox.git
+[submodule "rootfs/opt/vos"]
+	path = rootfs/opt/vos
+	url = git@github.com:polonair/vos.git
