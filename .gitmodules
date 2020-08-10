@@ -4,3 +4,6 @@
 [submodule "rootfs/opt/vos"]
 	path = rootfs/opt/vos
 	url = git@github.com:polonair/vos.git
+[submodule "rootfs/opt/tns"]
+	path = rootfs/opt/tns
+	url = git@github.com:polonair/tns.git
