@@ -10,3 +10,6 @@
 [submodule "bootloader"]
 	path = bootloader
 	url = git@github.com:VOSFoundation/bootloader.git
+[submodule "fs-tools"]
+	path = fs-tools
+	url = git@github.com:VOSFoundation/fs-tools.git
