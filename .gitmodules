@@ -7,3 +7,6 @@
 [submodule "rootfs/opt/tns"]
 	path = rootfs/opt/tns
 	url = git@github.com:polonair/tns.git
+[submodule "bootloader"]
+	path = bootloader
+	url = git@github.com:VOSFoundation/bootloader.git

@@ -1,3 +1,5 @@
 /rootfs/bin/
 /rootfs/sys/
 /desktop.ini
+/bootloader.exe
+/bootloader.pdb

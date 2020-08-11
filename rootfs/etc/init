@@ -1,0 +1,1 @@
+/bin/tns -ip 127.127.0.1 -port 23 -exec /bin/vosbox
