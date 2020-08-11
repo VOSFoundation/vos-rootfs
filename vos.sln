@@ -10,12 +10,21 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootloader", "bootloader", "{9F6E6F39-346F-4695-9D4B-02E4EA9855A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bootloader", "bootloader\bootloader.csproj", "{E40A4296-E0CF-4D81-A7F4-834352613179}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A3CA2EE-AFAB-403D-A972-DB1FA5007431} = {2A3CA2EE-AFAB-403D-A972-DB1FA5007431}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vos", "rootfs\opt\vos\vos.csproj", "{2A3CA2EE-AFAB-403D-A972-DB1FA5007431}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tns", "rootfs\opt\tns\tns.csproj", "{706ACC1A-887F-4E32-B63D-0E0B35548F89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A3CA2EE-AFAB-403D-A972-DB1FA5007431} = {2A3CA2EE-AFAB-403D-A972-DB1FA5007431}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vosbox", "rootfs\opt\vosbox\vosbox.csproj", "{7030695A-7421-4EE5-BA2D-305B075307BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A3CA2EE-AFAB-403D-A972-DB1FA5007431} = {2A3CA2EE-AFAB-403D-A972-DB1FA5007431}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
